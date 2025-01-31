@@ -21,65 +21,66 @@
         <header class="d-flex justify-content-between align-items-center p-4">
             <h3 class="fs-1">Project Ideas</h3>
 
-            <button type="button" class="btn btn-danger p-3" data-bs-toggle="modal" data-bs-target="#eeeexampleModal" data-bs-whatever="@mdo">+ Get quotes</button>
+            <button type="button" class="btn btn-danger p-3" data-bs-toggle="modal" data-bs-target="#homeProjectModal">+ Get quotes</button>
 
 
-            <div class="modal fade modeee" id="eeeexampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+            <!-- Modal -->
+            <div class="modal fade" id="homeProjectModal" tabindex="-1" aria-labelledby="homeProjectModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h2 class="modal-title fs-5" id="exampleModalLabel">Ready to start your next home project?</h2>
-
+                            <h5 class="modal-title" id="homeProjectModalLabel">Ready to start your next home project?</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <h6>Choose a category to start creating your project</h6>
-                            <section class="container mt-4">
+                            <p>Choose a category to start creating your project</p>
+                            <div class="modal-category">
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🔧<br>Auto Repair</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🏗<br>Contractors</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">⚡<br>Electricians</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🛠<br>Handyman</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">❄️<br>Heating & AC</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🧹<br>Home Cleaning</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🌿<br>Landscaping</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🚚<br>Movers</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🎨<br>Painters</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🚰<br>Plumbers</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🐜<br>Pest Control</div>
+                                </a>
+                                <a href="" class="text-decoration-none text-dark">
+                                    <div class="category-card_1">🏠<br>Roofers</div>
+                                </a>
 
-                                <div class="row text-center mt-5">
-                                    <div class="col-md-1 ">
-                                        <a href="" class="text-decoration-none text-dark qqq"> 🚛
-                                            <h5>Movers</h5>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-1 ">
-                                        <a href="" class="text-decoration-none text-dark qqq"> 🧹
-                                            <h5> Home cleaning</h5>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-1 ">
-                                        <a href="" class="text-decoration-none text-dark qqq"> 🔧
-
-                                            <h5> Plumbers </h5>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-1 ">
-                                        <a href="" class="text-decoration-none text-dark qqq"> 🛠️
-                                            <h5> Appliance repair </h5>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-1 ">
-                                        <a href="" class="text-decoration-none text-dark qqq"> ⚡
-                                            <h5> Electricians </h5>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-1 ">
-                                        <a href="" class="text-decoration-none text-dark qqq"> 🚗
-                                            <h5> Auto detailing </h5>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-1 ">
-                                        <a href="" class="text-decoration-none text-dark qqq">
-                                            <i class="bi bi-three-dots text-dark"></i>
-                                            <h5> more </h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </section>
-
+                            </div>
+                            <div class="text-center mt-3">
+                                <a href="#">Search for other home services</a>
+                            </div>
                         </div>
-
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" disabled>Next</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,9 +90,58 @@
             <h3>Hire a local pro today</h3>
             <div class="row text-center mt-5">
                 <div class="col-md-1 fs-4">
-                    <a href="" class="text-decoration-none text-dark qqq"> 🚛
+                    <a href="" class="text-decoration-none text-dark qqq" data-bs-toggle="modal" data-bs-target="#exampleModalToggle"> 🚛
                         <h5>Movers</h5>
                     </a>
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">What Kind of move Do You Need</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="radio-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="location" id="inState">
+                                            <label class="form-check-label" for="inState">In-state</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="location" id="outState">
+                                            <label class="form-check-label" for="outState">Out-of-state</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="location" id="international">
+                                            <label class="form-check-label" for="international">International</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" disabled>Back</button>
+                                    <button class="btn btn-danger" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Next</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Hide this modal and show the first with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-2 fs-4">
                     <a href="" class="text-decoration-none text-dark qqq"> 🧹
@@ -121,9 +171,68 @@
                 </div>
 
                 <div class="col-md-2 fs-4">
-                    <a href="" class="text-decoration-none text-dark qqq">
+                    <a href="" class="text-decoration-none text-dark qqq" data-bs-toggle="modal" data-bs-target="#homeProjectModal">
                         <i class="bi bi-three-dots text-dark"></i>
                         <h5> more </h5>
+                        <div class="modal fade" id="homeProjectModal" tabindex="-1" aria-labelledby="homeProjectModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="homeProjectModalLabel">Ready to start your next home project?</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Choose a category to start creating your project</p>
+                                        <div class="modal-category">
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🔧<br>Auto Repair</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🏗<br>Contractors</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">⚡<br>Electricians</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🛠<br>Handyman</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">❄️<br>Heating & AC</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🧹<br>Home Cleaning</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🌿<br>Landscaping</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🚚<br>Movers</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🎨<br>Painters</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🚰<br>Plumbers</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🐜<br>Pest Control</div>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-dark">
+                                                <div class="category-card_1">🏠<br>Roofers</div>
+                                            </a>
+
+                                        </div>
+                                        <div class="text-center mt-3">
+                                            <a href="#">Search for other home services</a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" disabled>Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
