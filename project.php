@@ -126,21 +126,173 @@
                     </div>
 
                     <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                                    <h1 class="modal-title fs-5">Where are you moving to?</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Hide this modal and show the first with the button below.
+                                    <form class="needs-validation" novalidate>
+                                        <div class="col-md-10 mb-5">
+
+                                            <input type="text" class="form-control" id="validationCustom05" placeholder="Zip code or location" required>
+                                        </div>
+                                    </form>
                                 </div>
+
+
                                 <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back</button>
+                                    <button class="btn btn-danger" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Next</button>
                                 </div>
+
                             </div>
                         </div>
                     </div>
+
+
+
+                    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Where are you moving to?</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="radio-group">
+                                        <form>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="few_items">
+                                                <label for="few_items">A few items</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="one_bedroom">
+                                                <label for="one_bedroom">1 bedroom home</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="two_bedroom">
+                                                <label for="two_bedroom">2 bedroom home</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="three_bedroom">
+                                                <label for="three_bedroom">3 bedroom home</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="four_plus_bedroom">
+                                                <label for="four_plus_bedroom">4+ bedroom home</label>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Back</button>
+                                    <button class="btn btn-danger" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Next</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Do you Need items Moves up or down floor at your current location?<br>
+                                    ,if so,how many floors?
+                                </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="radio-group">
+                                        <form>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="few_items">
+                                                <label for="few_items">none</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="one_bedroom">
+                                                <label for="one_bedroom">1 floor</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="two_bedroom">
+                                                <label for="two_bedroom">2 floor</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="three_bedroom">
+                                                <label for="three_bedroom">3 floor</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input" name="move_size" id="four_plus_bedroom">
+                                                <label for="four_plus_bedroom">There is elevator</label>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Back</button>
+                                    <button class="btn btn-danger" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">Next</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal fade" id="exampleModalToggle5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel5" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Do you need any special items moved?
+                                </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="radio-group">
+                                        <form>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" name="move_size" id="few_items">
+                                                <label for="few_items">Fine art or antiques</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" name="move_size" id="one_bedroom">
+                                                <label for="one_bedroom">Home theater equipment</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" name="move_size" id="two_bedroom">
+                                                <label for="two_bedroom">Large appliances</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" name="move_size" id="three_bedroom">
+                                                <label for="three_bedroom">Pool table</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input" name="move_size" id="four_plus_bedroom">
+                                                <label for="four_plus_bedroom">Other</label>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Back</button>
+                                    <button class="btn btn-danger" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal">Next</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
 
                 </div>
                 <div class="col-md-2 fs-4">

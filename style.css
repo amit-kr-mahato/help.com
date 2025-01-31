@@ -185,3 +185,10 @@
 .form-check:hover{
   background-color: #f1ebeb;
 }
+
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
