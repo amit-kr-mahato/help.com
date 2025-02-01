@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg  navbar-light  navv">
   <div class="container-fluid">
     <a class="navbar-brand me-5 text-light" href="/index.php">
-      <i class="bi bi-person-raised-hand" style="font-size: 40px; color: red;">help</i>
+      <i class="bi bi-person-raised-hand" style="font-size: 40px; color: red;">Nelp</i>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header text-center">
-                <h3 class="text-center mb-3">Log in to 🙋‍♂️help </h3>
+                  <h3 class="text-center mb-3">Log in to 🙋‍♂️help </h3>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -82,7 +82,7 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header text-center">
-                 </div>
+                </div>
                 <div class="modal-body">
                   <form class="mx-1 mx-md-4">
                     <h3 class="text-center mb-3">Register to 🙋‍♂️help </h3>
@@ -144,108 +144,236 @@
     </div>
   </div>
 </nav>
-
-<div class="content ">
-  <div class="container">
-    <!-- Example single danger button -->
-    <div class="btn-group me-5">
-      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Restaurants
-      </button>
+<!-- =============================another navbar============================= -->
+<div class="cotent" style="background-color: aqua;">
+  <div class="container" style="display: flex; height:70px;">
+    <header class="global-header">
       <div class="row">
-        <ul class="dropdown-menu">
-          <div class="column ">
-            <a href="#" class="me-4"><i class="bi bi-inboxes-fill text-dark">Takeout</i></a>
-            <a href="#"><i class="bi bi-burger">Burger</i></a>
-            <a href="#"><i class="bi bi-cup-straw">Chinese</i></a>
-            <a href="#"><i>Italian</i></a>
-          </div>
+        <nav class="nav-menu">
+          <ul>
+            <li id="services"><a href="#">restaurants</a>
+              <div class="sub-nav">
+                <div class="sub-nav-col left">
+                  <a href="#" class="sub-nav-box" id="box-1">
 
-          <div class="column">
-            <a href="#"><i class="bi bi-calendar-check-fill">Reservation</i></a>
-            <a href="#"><i>Delivery</i></a>
-            <a href="#"><i>Mexican</i></a>
-            <a href="#"><i>Thai</i></a>
-          </div>
+                    <h4> <span class="fs-5">🗑</span>Takeout</h4>
 
-        </ul>
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-2">
+
+                    <h4> <span class="fs-5">🍔</span>burger</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-3">
+
+                    <h4> <span class="fs-5">🏯</span>chinese</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-4">
+
+                    <h4><span class="fs-5">🍽️</span>Italian</h4>
+
+                  </a>
+                </div>
+                <div class="sub-nav-col right">
+                  <a href="#" class="sub-nav-box" id="box-5">
+
+                    <h4> <span class="fs-5">🗓️</span>Reservations</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-6">
+
+                    <h4> <span class="fs-5">🚚</span>Delivery</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-7">
+
+                    <h4> <span class="fs-5">🌮</span>Mexican</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-8">
+
+                    <h4> <span class="fs-5" >🍜</span>Thai</h4>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </header>
 
-    <!-- Example single danger button -->
-    <div class="btn-group me-5">
-      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Home Services
-      </button>
+    <header class="global-header">
       <div class="row">
-        <ul class="dropdown-menu">
-          <div class="column ">
-            <a href="#" class="me-4"><i class="bi bi-inboxes-fill text-dark">Takeout</i></a>
-            <a href="#"><i class="bi bi-burger">Burger</i></a>
-            <a href="#"><i class="bi bi-cup-straw">Chinese</i></a>
-            <a href="#"><i>Italian</i></a>
-          </div>
+        <nav class="nav-menu">
+          <ul>
+            <li id="services"><a href="#">Home Services</a>
+              <div class="sub-nav">
+                <div class="sub-nav-col left">
+                  <a href="#" class="sub-nav-box" id="box-1">
 
-          <div class="column">
-            <a href="#"><i class="bi bi-calendar-check-fill">Reservation</i></a>
-            <a href="#"><i>Delivery</i></a>
-            <a href="#"><i>Mexican</i></a>
-            <a href="#"><i>Thai</i></a>
-          </div>
+                    <h4>Marketing</h4>
 
-        </ul>
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-2">
+
+                    <h4>Consulting</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-3">
+
+                    <h4>Investing</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-4">
+
+                    <h4>Funding</h4>
+
+                  </a>
+                </div>
+                <div class="sub-nav-col right">
+                  <a href="#" class="sub-nav-box" id="box-5">
+
+                    <h4>Goals</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-6">
+
+                    <h4>Onboarding</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-7">
+
+                    <h4>Resources</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-8">
+
+                    <h4>Support</h4>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </header>
 
-    <!-- Example single danger button -->
-    <div class="btn-group me-5">
-      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Auto Services
-      </button>
+    <header class="global-header">
       <div class="row">
-        <ul class="dropdown-menu">
-          <div class="column ">
-            <a href="#" class="me-4"><i class="bi bi-inboxes-fill text-dark">Takeout</i></a>
-            <a href="#"><i class="bi bi-burger">Burger</i></a>
-            <a href="#"><i class="bi bi-cup-straw">Chinese</i></a>
-            <a href="#"><i>Italian</i></a>
-          </div>
+        <nav class="nav-menu">
+          <ul>
+            <li id="services"><a href="#">Auto Services</a>
+              <div class="sub-nav">
+                <div class="sub-nav-col left">
+                  <a href="#" class="sub-nav-box" id="box-1">
 
-          <div class="column">
-            <a href="#"><i class="bi bi-calendar-check-fill">Reservation</i></a>
-            <a href="#"><i>Delivery</i></a>
-            <a href="#"><i>Mexican</i></a>
-            <a href="#"><i>Thai</i></a>
-          </div>
+                    <h4>Marketing</h4>
 
-        </ul>
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-2">
+
+                    <h4>Consulting</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-3">
+
+                    <h4>Investing</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-4">
+
+                    <h4>Funding</h4>
+
+                  </a>
+                </div>
+                <div class="sub-nav-col right">
+                  <a href="#" class="sub-nav-box" id="box-5">
+
+                    <h4>Goals</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-6">
+
+                    <h4>Onboarding</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-7">
+
+                    <h4>Resources</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-8">
+
+                    <h4>Support</h4>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </header>
 
-    <!-- Example single danger button -->
-    <div class="btn-group me-5">
-      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        More
-      </button>
+    <header class="global-header">
       <div class="row">
-        <ul class="dropdown-menu">
-          <div class="column ">
-            <a href="#" class="me-4"><i class="bi bi-inboxes-fill text-dark">Takeout</i></a>
-            <a href="#"><i class="bi bi-burger">Burger</i></a>
-            <a href="#"><i class="bi bi-cup-straw">Chinese</i></a>
-            <a href="#"><i>Italian</i></a>
-          </div>
+        <nav class="nav-menu">
+          <ul>
+            <li id="services"><a href="#">More</a>
+              <div class="sub-nav">
+                <div class="sub-nav-col left">
+                  <a href="#" class="sub-nav-box" id="box-1">
 
-          <div class="column">
-            <a href="#"><i class="bi bi-calendar-check-fill">Reservation</i></a>
-            <a href="#"><i>Delivery</i></a>
-            <a href="#"><i>Mexican</i></a>
-            <a href="#"><i>Thai</i></a>
-          </div>
+                    <h4>Marketing</h4>
 
-        </ul>
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-2">
+
+                    <h4>Consulting</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-3">
+
+                    <h4>Investing</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-4">
+
+                    <h4>Funding</h4>
+
+                  </a>
+                </div>
+                <div class="sub-nav-col right">
+                  <a href="#" class="sub-nav-box" id="box-5">
+
+                    <h4>Goals</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-6">
+
+                    <h4>Onboarding</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-7">
+
+                    <h4>Resources</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box" id="box-8">
+
+                    <h4>Support</h4>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
-
+    </header>
   </div>
+</div>
 </div>
