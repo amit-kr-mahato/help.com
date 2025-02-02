@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg  navbar-light  navv">
   <div class="container-fluid">
-    <a class="navbar-brand me-5 text-light" href="/index.php">
+    <a class="navbar-brand me-5 text-light" href="index.php">
       <i class="bi bi-person-raised-hand" style="font-size: 40px; color: red;">Nelp</i>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +28,13 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active me-3 text-light" aria-current="page" href="review.php">Write a Review</a>
+          <a class="nav-link me-2 active text-light navver" aria-current="page" href="review.php">Write a Review</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link me-3 text-light" href="project.php">Start a Project</a>
+          <a class="nav-link me-3  text-light navver" href="project.php">Start a Project</a>
         </li>
-        <li class="nav-item ms-5">
-          <button type="button" class="btn btn-primary me-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</button>
+        <li class="nav-item ">
+          <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</button>
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -76,7 +76,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-danger me-5" data-bs-toggle="modal" data-bs-target="#eexampleModal" data-bs-whatever="@mdo">Sign up</button>
+          <button type="button" class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#eexampleModal" data-bs-whatever="@mdo">Sign up</button>
 
           <div class="modal fade" id="eexampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -145,55 +145,205 @@
   </div>
 </nav>
 <!-- =============================another navbar============================= -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu second-menu ">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu second-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          `                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu second-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+<nav class="navbar navbar-expand-lg " style="background-color: aqua;">
+  <div class="container">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Restaurants
+            </a>
+            <ul class="dropdown-menu second-menu">
+              <div class="content_1 d-flex">
+                <div class="sub-nav-col left me-4">
+                  <a href="#" class="sub-nav-box  text-decoration-none text-dark" id="box-1">
+
+                    <h4 class="leftt"> <span class="leftt">🗑</span>Takeout</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-2">
+
+                    <h4 class="leftt"> <span class="leftt">🍔</span>burger</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-3">
+
+                    <h4 class="leftt"> <span class="leftt">🏯</span>chinese</h4>
+
+                  </a>
+                  
+                </div>
+                <div class="sub-nav-col right">
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-5">
+
+                    <h4 class="leftt"> <span class="leftt">🗓️</span>Reservations</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-6">
+
+                    <h4 class="leftt"> <span class="leftt">🚚</span>Delivery</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-7">
+
+                    <h4 class="leftt"> <span class="leftt">🌮</span>Mexican</h4>
+
+                  </a>
+                  
+                </div>
+              </div>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home Services
+            </a>
+            <ul class="dropdown-menu second-menu">
+              <div class="content_1 d-flex">
+                <div class="sub-nav-col left me-4">
+                  <a href="#" class="sub-nav-box  text-decoration-none text-dark" id="box-1">
+
+                    <h4 class="leftt"> <span class="leftt">🛠️</span>Contractors</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-2">
+
+                    <h4 class="leftt"> <span class="leftt">🔌</span>Electricians</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-3">
+
+                    <h4 class="leftt"> <span class="leftt">🖲</span>Home Cleaner</h4>
+
+                  </a>
+
+                </div>
+                <div class="sub-nav-col right me-1">
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-4">
+
+                    <h4 class="leftt"><span class="leftt">🧑‍🌾</span>Landscaping</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-5">
+
+                    <h4 class="leftt"> <span class="leftt">🚚</span>Movers</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-6">
+
+                    <h4 class="leftt"> <span class="leftt">👷🏾</span>Plumbers</h4>
+
+                  </a>
+                </div>
+              </div>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Auto Services
+            </a>
+            <ul class="dropdown-menu second-menu">
+              <div class="content_1 d-flex">
+                <div class="sub-nav-col left me-4">
+                  <a href="#" class="sub-nav-box  text-decoration-none text-dark" id="box-1">
+
+                    <h4 class="leftt"> <span class="leftt">🦿</span>Auto Repair</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-2">
+
+                    <h4 class="leftt"> <span class="leftt">⚗</span>Auto detailing</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-3">
+
+                    <h4 class="leftt"> <span class="leftt">🔫</span>Car Wash</h4>
+
+                  </a>
+                </div>
+                <div class="sub-nav-col right">
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-5">
+
+                    <h4 class="leftt"> <span class="leftt">🏚</span>Car Dealers</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-6">
+
+                    <h4 class="leftt"> <span class="leftt">👨🏻‍🔧</span>Oil Change</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-7">
+
+                    <h4 class="leftt"> <span class="leftt">🅿</span>Parking</h4>
+
+                  </a>
+                  
+                </div>
+              </div>
+            </ul>
+          </li>
 
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu second-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu second-menu">
+              <div class="content_1 d-flex">
+                <div class="sub-nav-col left me-4">
+                  <a href="#" class="sub-nav-box  text-decoration-none text-dark" id="box-1">
+
+                    <h4 class="leftt"> <span class="leftt">🖱</span>Dry Cleaning</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-2">
+
+                    <h4 class="leftt"> <span class="leftt">📲</span>phone repair</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-3">
+
+                    <h4 class="leftt"> <span class="leftt">🍹</span>Nightlife</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-4">
+
+                    <h4 class="leftt"><span class="leftt">✂</span>Hair Salons</h4>
+
+                  </a>
+                </div>
+                <div class="sub-nav-col right">
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-5">
+
+                    <h4 class="leftt"> <span class="leftt">🏋🏿‍♂️</span>Gyms</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-6">
+
+                    <h4 class="leftt"> <span class="leftt">💆🏻‍♀️</span>Massage</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-7">
+
+                    <h4 class="leftt"> <span class="leftt">🛍️</span>Shopping</h4>
+
+                  </a>
+                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-8">
+
+                    <h4 class="leftt"> <span class="leftt">🍺</span>Bars</h4>
+
+                  </a>
+                </div>
+              </div>
+            </ul>
+
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>

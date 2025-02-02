@@ -13,7 +13,7 @@
 
 <body>
 
-    <div class="cont">
+    <div class="cont_1">
         <?php
         include "navbar/navbar.php";
         ?>

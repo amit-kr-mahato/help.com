@@ -182,8 +182,12 @@
   margin-bottom: 10px;
 }
 
-.navbar-nav .second-menu {
-  /* width: 200px; */
-  /* height: 300px; */
-  
+.navbar-nav .dropdown-menu {
+  width: 330px; 
+
+}
+
+.leftt{
+  font-size: 20px;
+
 }
