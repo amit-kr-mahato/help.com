@@ -6,17 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="stylee.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-  <div class="cont">
+  <div class="contt">
     <?php
     include "navbar/navbar.php";
     ?>
   </div>
+ 
 
   <!-- --------------------image-slider-------------------->
 
@@ -62,8 +62,8 @@
   </div>
 
   <!------------------------------ Recent Acativity-------------------------------->
-  <div class="container">
-    <div class="container mt-4">
+ 
+    <!-- <div class="container mt-4">
       <h1 class="text-center">Recent Activity</h1>
       <div class="row g-4">
         <div class="col-md-6">
@@ -107,9 +107,9 @@
       </div>
 
     </div>
-  </div>
-
-  <div class="container">
+  -->
+  <!------------------------------category-------------------------------->
+ 
     <div class="container mt-5">
       <h1 class="text-center">category</h1>
       <div class="row g-4">
@@ -270,7 +270,7 @@
       </div>
 
     </div>
-  </div>
+ 
 
   <div class="container">
     <?php
