@@ -1,3 +1,4 @@
+<header>
 <nav class="navbar navbar-expand-lg  navbar-light  navv">
   <div class="container-fluid">
     <a class="navbar-brand me-5 text-light" href="index.php">
@@ -18,9 +19,9 @@
             Help for Business
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#"><i class="bi bi-house-add-fill me-3"></i>Add a business</a></li>
-            <li><a class="dropdown-item" href="#"><i class="bi bi-check2-circle me-3"></i>Claim your business</a></li>
-            <li><a class="dropdown-item" href="#"><i class="bi bi-person-circle me-3"></i>Log in to Business Account</a></li>
+            <li><a class="dropdown-item" href="addbusiness.php"><i class="bi bi-house-add-fill me-3"></i>Add a business</a></li>
+            <li><a class="dropdown-item" href="claim.php"><i class="bi bi-check2-circle me-3"></i>Claim your business</a></li>
+            <li><a class="dropdown-item" href="login.php"><i class="bi bi-person-circle me-3"></i>Log in to Business Account</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
@@ -144,6 +145,7 @@
     </div>
   </div>
 </nav>
+</header>
 <!-- =============================another navbar============================= -->
 
 <nav class="navbar navbar-expand-lg " style="background-color: aqua;">

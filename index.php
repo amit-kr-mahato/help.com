@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="contt">
+  <div class="contt ">
     <?php
     include "navbar/navbar.php";
     ?>
@@ -20,45 +20,87 @@
 
   <!-- --------------------image-slider-------------------->
 
-  <div class="conteet mt-3">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div class="carousel">
+
+    <div class="list">
+
+      <!-- <div class="item" style="background-image: url(images/Roofing_iStock-934626558.0-1-scaled.jpg.optimal.jpg); ">
+        <div class="content">
+          <div class="title" style="color:white;">SLIDER</div>
+          
+          <div class="btn">
+            <button class=" btn-danger" style="background-color: red;color:white">See More</button>
+            
+          </div>
+        </div>
+      </div> -->
+
+      <div class="item" style="background-image: url(images/Chicken-Soup-main-2.webp);">
+
+        <div class="content">
+          <div class="title mb-4" style="color:white;">Praiseworthy soup</div>
+          <div class="btn">
+            <button class=" btn-danger" style="background-color: red;color:white"><a href="" class="text-light text-decoration-none fw-bolder">italian</a></button>
+
+          </div>
+        </div>
+
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/plumber-fixing-white-sink-pipe-with-adjustable-wrench-picture-id1150199946.jpg" class="d-block w-100 hei" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5> Get your fix</h5>
 
+      <div class="item" style="background-image: url(images/plumber-fixing-white-sink-pipe-with-adjustable-wrench-picture-id1150199946.jpg);">
+
+        <div class="content">
+          <div class="container">
+            <div class="title mb-4" style="color:white;">Time for a tune-up?</div>
+
+            <div class="btn">
+              <button class=" btn-danger" style="background-color: red;color:white"> <a href="" class="text-light text-decoration-none fw-bolder" >Auto Repaire</a></button>
+
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="images/Chicken-Soup-main-2.webp" class="d-block w-100 hei " alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Warm and wonderfull</h5>
 
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/Roofing_iStock-934626558.0-1-scaled.jpg.optimal.jpg" class="d-block w-100 hei" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Keep your home protected</h5>
-
-          </div>
-        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+
+      <div class="item" style="background-image: url(images/6126-08643014en_Masterfile.jpg);">
+
+        <div class="content">
+          <div class="title mb-4" style="color:white;">Nothing like a new coat of paint</div>
+          <div class="btn">
+            <button class=" btn-danger" style="background-color: red;color:white"><a href="" class="text-light text-decoration-none fw-bolder">Painter</a></button>
+          
+          </div>
+        </div>
+
+      </div>
+
+      <!-- <div class="item" style="background-image: url(image/parrot2.jpg);">
+
+        <div class="content">
+          <div class="title">SLIDER</div>
+          <div class="name">PARROT</div>
+          <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+          <div class="btn">
+            <button>See More</button>
+            <button>Subscribe</button>
+          </div>
+        </div>
+
+      </div>  -->
+
     </div>
+
+    <!--next prev button-->
+    <div class="arrows">
+      <button class="prev">></button>
+
+      <button class="next">></button>
+    </div>
+
+
+    <!-- time running -->
+    <!-- <div class="timeRunning "></div> -->
+
   </div>
 
   <!------------------------------ Recent Acativity-------------------------------->
