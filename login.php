@@ -10,6 +10,11 @@
     <title>Boostrap Login | Ludiflex</title>
 </head>
 <body>
+<div class="contt ">
+    <?php
+    include "navbar/navbar.php";
+    ?>
+  </div>
     <!----------------------- Main Container -------------------------->
      <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <!----------------------- Login Container -------------------------->

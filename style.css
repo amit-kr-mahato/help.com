@@ -85,7 +85,7 @@
 /* carousel */
 
 .carousel{
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   margin-top: -50px;
   overflow: hidden;
@@ -503,3 +503,4 @@
       padding: 20px;
    }
 }
+

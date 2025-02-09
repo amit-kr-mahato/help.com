@@ -108,7 +108,7 @@
   <div class="container mt-4">
     <h1 class="text-center">Recent Activity</h1>
     <div class="row g-4">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="card p-3 shadow-sm">
           <div class="d-flex align-items-center mb-2">
             <img src="images/Chicken-Soup-main-2.webp" class="rounded-circle me-2" width="50" height="50" alt="User Image">
@@ -127,7 +127,7 @@
           <a href="#" class="text-dark read-more">Read more</a>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="card p-3 shadow-sm">
           <div class="d-flex align-items-center mb-2">
             <img src="images/Chicken-Soup-main-2.webp" class="rounded-circle me-2" width="50" height="50" alt="User Image">
