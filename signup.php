@@ -33,7 +33,7 @@
                       <a href="#" class="text-decoration-none">Forgot password?</a>
                     </div>
                     <div class="text-center mt-3">
-                      <a href="#" class="text-decoration-none text-dark">New to Yelp? Sign up
+                      <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#eexampleModal" data-bs-whatever="@mdo">New to Yelp? Sign up
                       </a>
                     </div>
                 </div>

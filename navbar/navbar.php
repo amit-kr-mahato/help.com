@@ -25,7 +25,7 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#"><i class="bi bi-search me-3"></i>Explore help for Business</a></li>
+              <li><a class="dropdown-item" href="Explore.php"><i class="bi bi-search me-3"></i>Explore help for Business</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -90,7 +90,7 @@
                                 <button class="btn btn-lg btn-light w-100 fs-6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7JaI54p1i3v3WAoqEiQE1Jduquut71TkNSKSTNoixuv9DQQGdj61Ex_10nv6NM5wIhY&usqp=CAU" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
                               </div>
                               <div class="row">
-                                <small>Don't have account? <a href="#" data-bs-toggle="modal" data-bs-target="#eexampleModal" data-bs-whatever="@mdo">Sign Up</a></small>
+                                <small>Don't have account? <a href="#" class="fs-5" data-bs-toggle="modal" data-bs-target="#eexampleModal" data-bs-whatever="@mdo">Sign Up</a></small>
                               </div>
                             </div>
                           </div>
@@ -163,7 +163,7 @@
                               </div>
 
                               <div class="row">
-                                <small>Already have an account? <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log in</a></small>
+                                <small>Already have an account? <a href="#" class="fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log in</a></small>
                               </div>
                             </div>
                           </div>
