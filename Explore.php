@@ -136,6 +136,71 @@
                 margin: 0 -35px 0 35px;
             }
         }
+
+        .contr {
+            background-color: #f8f9fa;
+        }
+
+        .hero-section {
+            padding: 50px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+
+
+        .feature-list {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .feature-list i {
+            color: green;
+        }
+
+        .icon-1 {
+            border-color: #FC6D6D;
+        }
+
+        .testimonial-card {
+            background: white;
+            transform:translateX(-100%);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex-shrink: 0;
+            max-width: 400px;
+            text-align: left;
+        }
+
+        .quote-icon {
+            color: red;
+            font-size: 30px;
+        }
+
+        .testimonial-text {
+            font-size: 18px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .author {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: red;
+        }
+
+        .location {
+            font-size: 16px;
+            color: black;
+        }
+
+        #hero{
+            height: 400px;
+            overflow-x: hidden;
+            background-color: #D8FF04;
+        }
     </style>
 </head>
 
@@ -192,6 +257,108 @@
         </div>
     </div>
 
+
+    <div class="contert mt-5">
+        <div class="container">
+            <div class="contr mt-5">
+                <div class="icon text-center ">
+                    <img class="rounded-circle border-primary icon-1 border-3" src="images/pngtree-hand-drawn-red-speaker-megaphone-illustration-png-image_2255153-removebg-preview.png" style="height: 60px;width:60px" alt="">
+                </div>
+                <h5 class="text-success text-center">Claim your free page</h5>
+                <h2 class="text-center"><strong>Establish trust and help customers</strong></h2>
+                <h3 class="text-center"><strong>get to know your business</strong></h3>
+
+
+                <div class="row align-items-center hero-section">
+                    <div class="col-md-6 text-center">
+
+                        <p>Over 2.4 million people visit Yelp daily to find home services, restaurants, and other businesses.</p>
+                        <ul class="feature-list list-unstyled">
+                            <li><i class="bi bi-check-circle"></i> Update your business info so people can find you</li>
+                            <li><i class="bi bi-check-circle"></i> Respond to reviews and messages as soon as they come in</li>
+                            <li><i class="bi bi-check-circle"></i> Add photos to showcase the best of your business</li>
+                        </ul>
+                        <button class="verify-btn fw-bolder"><a href="claim.php" class="text-light text-decoration-none">Verify my free listing</a></button>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="images/homepage-claim-your-listing-1.webp" class="img-fluid rounded" alt="Yelp Business Listing" style="width: 70%; height:60%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contertt " style="height: 600px;padding-top:100px;width:100%;">
+        <div class=" align-items-center" id="hero" style="display: flex;">
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+
+            <div class="testimonial-card me-4">
+                <span class="quote-icon">❝</span>
+                <p class="testimonial-text">
+                    “Yelp has been invaluable to us, not only for lead referral but also for validation and credibility.”
+                </p>
+                <p><span class="author">Ken-Mar Rescue</span>, <span class="location">CA</span></p>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="gsap.js"></script>
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

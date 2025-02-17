@@ -1,3 +1,7 @@
+
+
+
+
 let moreCategories = document.getElementById("moreCategories");
 let isShow = false;
 
@@ -14,7 +18,8 @@ function toggleCategories(event) {
 
 
 // --------------------------show more content---------------------------------
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function(event) {
+    event.preventDefault();
     const readMoreLink = document.querySelector('.read-more');
     const fullParagraph = document.querySelector('.full-paragraph');
   

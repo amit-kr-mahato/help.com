@@ -35,7 +35,7 @@
             <a class="nav-link me-3  text-light navver" href="project.php">Start a Project</a>
           </li>
           <li class="nav-item ">
-            <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</button>
+            <button type="btn" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</button>
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -150,14 +150,7 @@
                                 <input type="checkbox" onclick="myFunction()">Show Password
                               </div>
 
-                              <div class="input-group mb-1">
-                                <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder=" Repeat Password" id="myInput1">
-
-                              </div>
-                              <div class="input-group  mb-3">
-                                <input type="checkbox" onclick="myFunction1()">Show Password
-                              </div>
-
+                             
                               <div class="input-group mb-3">
                                 <button class="btn btn-lg btn-primary w-100 fs-6">Sign up</button>
                               </div>
