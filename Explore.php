@@ -213,27 +213,27 @@
 
     <div class="container promo-container">
         <div class="promo-text">
-            <h1>It's free to be on Yelp</h1>
+            <h1>It's to be on Yelp</h1>
             <ul class="list-unstyled fs-3">
                 <li>✅ 34% of Nelp users have an annual household income of $1000 or more</li>
                 <li>✅ 73% of users hire or buy from a business they found on Nelp</li>
 
             </ul>
-            <p><strong class="fs-5">Get found on Nelp for free today!</strong></p>
+            <p><strong class="fs-5">Get found on Nelp today!</strong></p>
             <button class="verify-btn fw-bolder"><a href="claim.php" class="text-light text-decoration-none">Verify my free listing</a></button>
         </div>
 
-        <div class="promo-image position-relative">
+        <div class="promo-image position-relative" id="promo">
             <img src="images/homepage-hero-florist-woman (1).webp" class="img-fluid rounded" alt="Business Owner" style="width: 80%;height:60%;">
-            <div class="message-box">
+            <div class="message-box" id="promo-1">
                 <strong>Message from Abby:</strong><br>
                 Do you offer a flower delivery service?
             </div>
-            <div class="message-box-2">
+            <div class="message-box-2" id="promo-2">
                 <strong>Bloom & Co:</strong><br>
                 Yes we do,How can we help?
             </div>
-            <div class="message-box_1">
+            <div class="message-box_1" id="promo-3">
                 Bloom & Co did an AMAZING job with our arrangement order!
             </div>
         </div>
@@ -278,7 +278,7 @@
                             <li><i class="bi bi-check-circle"></i> Respond to reviews and messages as soon as they come in</li>
                             <li><i class="bi bi-check-circle"></i> Add photos to showcase the best of your business</li>
                         </ul>
-                        <button class="verify-btn fw-bolder"><a href="claim.php" class="text-light text-decoration-none">Verify my free listing</a></button>
+                        <button class="verify-btn fw-bolder"><a href="claim.php" class="text-light text-decoration-none">Verify my listing</a></button>
                     </div>
                     <div class="col-md-6 text-center">
                         <img src="images/homepage-claim-your-listing-1.webp" class="img-fluid rounded" alt="Yelp Business Listing" style="width: 70%; height:60%">
