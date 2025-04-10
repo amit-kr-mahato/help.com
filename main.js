@@ -96,7 +96,20 @@ resetTimeAnimation()
 
 // ====================password field show and hide===========================
 
+Shery.mouseFollower();
+Shery.makeMagnet(".magnet");
 
+gsap.to(".fleftem", {
+  scrollTrigger: {
+    trigger: "#featureimg",
+    pin: true,
+    start: "top top",
+    end: "bottom bottom",
+    endTrigger: ".last",
+    scrub: 1,
+  },
+  
+});
 
 
 

@@ -192,12 +192,12 @@
             <ul class="dropdown-menu second-menu">
               <div class="content_1 d-flex">
                 <div class="sub-nav-col left me-4">
-                  <a href="#" class="sub-nav-box  text-decoration-none text-dark" id="box-1">
+                  <a href="Takeout.php" class="sub-nav-box  text-decoration-none text-dark" id="box-1">
 
                     <h4 class="leftt"> <span class="leftt">🗑</span>Takeout</h4>
 
                   </a>
-                  <a href="#" class="sub-nav-box text-decoration-none text-dark" id="box-2">
+                  <a href="Takeout.php" class="sub-nav-box text-decoration-none text-dark" id="box-2">
 
                     <h4 class="leftt"> <span class="leftt">🍔</span>burger</h4>
 

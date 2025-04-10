@@ -7,12 +7,12 @@
             <li id="services"><a href="#">restaurants</a>
               <div class="sub-nav">
                 <div class="sub-nav-col left">
-                  <a href="#" class="sub-nav-box" id="box-1">
+                  <a href="Takeout.php" target="_blank" class="sub-nav-box" id="box-1">
 
                     <h4> <span class="fs-5">🗑</span>Takeout</h4>
 
                   </a>
-                  <a href="#" class="sub-nav-box" id="box-2">
+                  <a href="" class="sub-nav-box" id="box-2">
 
                     <h4> <span class="fs-5">🍔</span>burger</h4>
 

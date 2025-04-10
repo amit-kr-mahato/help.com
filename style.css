@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*::selection {
+  color: #ffff;
+  background-color: #000;
+}
 .contt{
   margin-bottom: 60px;
 }
@@ -503,4 +507,94 @@
       padding: 20px;
    }
 }
+#feature{
+  padding: 1vw 1vw;
+  
 
+}
+
+
+
+#featureimg{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  gap: 7px;
+ 
+}
+#fleft{
+  overflow:hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 70%;
+  height: inherit;
+  
+  
+}
+
+.box-s:hover{
+  box-shadow: 0px 0px 3px 0.5px rgb(95, 95, 95);
+
+}
+
+
+.fleft::-webkit-scrollbar{
+  display: none;
+
+}
+
+.fleftem{
+  width: 100%;
+  height: inherit;
+
+}
+
+
+#fright{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  width: 30%;
+  height: inherit;
+ 
+  
+}
+
+#fright .images{
+  width: 100%;
+  height: 100%;
+  
+
+}
+
+
+
+.rating-stars {
+  color: #f05d22;
+}
+.custom-badge {
+ 
+  color: #2e7d32;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+.tag {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+}
+
+
+.restaurant-img {
+  width: 103%;
+  height: 90%;
+  border-radius: 8px;
+}
+
+.font{
+  font-size: 14px;
+}
