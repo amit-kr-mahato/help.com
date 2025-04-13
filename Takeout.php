@@ -43,7 +43,7 @@
                             <button class="btn btn-outline-secondary">Offers Delivery</button>
                             <button class="btn btn-outline-secondary">Offers Takeout</button>
                         </div>
-
+ 
                         <h5 class="text-muted">Sponsored Results</h5>
 
                         <div class="card  fleftem mb-3 shadow-sm">

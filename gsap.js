@@ -1,4 +1,17 @@
 
+// var main=document.querySelector("#main")
+// var cursor=document.querySelector("#cursor")
+
+// main.addEventListener("mousemove",function(dets){
+//     gsap.to(cursor,{
+//         x:dets.X,
+//         y:dets.Y,
+//         duration:1,
+//         ease:"back.Out",
+
+//     });
+// })
+
 gsap.from("#promo #promo-1",{
     scale:0,
     duration:1,

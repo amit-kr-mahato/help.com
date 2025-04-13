@@ -6,7 +6,21 @@
 }
 .contt{
   margin-bottom: 60px;
+  
+ 
 }
+
+ #preloader{
+  position: fixed;
+  background:#000 url(images/4bcdb77d331057362271185bc2b8ed81.gif)no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  z-index: 1000;
+  
+
+}
+
 
 
 .bbbb {
@@ -93,7 +107,8 @@
   height: 100vh;
   margin-top: -50px;
   overflow: hidden;
-  /* position: relative; */
+  
+ 
 }
 
 .carousel .list .item{

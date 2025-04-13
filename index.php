@@ -11,12 +11,15 @@
 </head>
 
 <body>
+<div id="preloader"></div>
+  
   <div class="contt ">
     <?php
     include "navbar/navbar.php";
     ?>
   </div>
-
+  </div>
+  
 
   <!-- --------------------image-slider-------------------->
 
@@ -313,6 +316,8 @@
 
   </div>
 
+ 
+
 
   <div class="container">
     <?php
@@ -320,36 +325,20 @@
     ?>
 
   </div>
-  <script>
-    function myFunction() {
-  var x = document.getElementById("myInput");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}
+ <script>
+  var loader=document.querySelector("#preloader");
+  window.addEventListener("load",function(){
+    loader.style.display="none";
 
-function myFunction1() {
-    var x = document.getElementById("myInput1");
-    if (x.type === "password") {
-      x.type = "text";
-    } else {
-      x.type = "password";
-    }
-  }
 
-  function myFunction2() {
-    var x = document.getElementById("myInput2");
-    if (x.type === "password") {
-      x.type = "text";
-    } else {
-      x.type = "password";
-    }
-  }
+  });
+    
 
-  </script>
+  
+ </script>
+
   <script src="main.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 

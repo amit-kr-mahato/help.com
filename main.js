@@ -1,7 +1,6 @@
 
 
 
-
 let moreCategories = document.getElementById("moreCategories");
 let isShow = false;
 
@@ -96,20 +95,20 @@ resetTimeAnimation()
 
 // ====================password field show and hide===========================
 
-Shery.mouseFollower();
-Shery.makeMagnet(".magnet");
+// Shery.mouseFollower();
+// Shery.makeMagnet(".magnet");
 
-gsap.to(".fleftem", {
-  scrollTrigger: {
-    trigger: "#featureimg",
-    pin: true,
-    start: "top top",
-    end: "bottom bottom",
-    endTrigger: ".last",
-    scrub: 1,
-  },
+// gsap.to(".fleftem", {
+//   scrollTrigger: {
+//     trigger: "#featureimg",
+//     pin: true,
+//     start: "top top",
+//     end: "bottom bottom",
+//     endTrigger: ".last",
+//     scrub: 1,
+//   },
   
-});
+// });
 
 
 
