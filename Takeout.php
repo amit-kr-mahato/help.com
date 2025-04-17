@@ -45,8 +45,7 @@
                         </div>
  
                         <h5 class="text-muted">Sponsored Results</h5>
-
-                        <div class="card  fleftem mb-3 shadow-sm">
+<div class="card  fleftem mb-3 shadow-sm">
                             <div class="row box-s g-0">
                                 <div class="col-md-2" style="padding-top:20px ;">
                                     <img src="https://images.unsplash.com/photo-1603574670812-d24560880210?fit=crop&w=600&q=80" class="restaurant-img" alt="Hinodeya Ramen Bar">
@@ -77,6 +76,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="card  fleftem mb-3 shadow-sm">
                             <div class="row box-s g-0">
                                 <div class="col-md-2">
