@@ -11,14 +11,36 @@
 </head>
 
 <body>
-  
+
+  <div class="box">
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+    <div class="planel"></div>
+  </div>
+
   <div class="contt ">
     <?php
     include "navbar/navbar.php";
     ?>
   </div>
-  </div>
-  
+
 
   <!-- --------------------image-slider-------------------->
 
@@ -56,7 +78,7 @@
             <div class="title mb-4" style="color:white;">Time for a tune-up?</div>
 
             <div class="btn">
-              <button class=" btn-danger" style="background-color: red;color:white"> <a href="" class="text-light text-decoration-none fw-bolder" >Auto Repaire</a></button>
+              <button class=" btn-danger" style="background-color: red;color:white"> <a href="" class="text-light text-decoration-none fw-bolder">Auto Repaire</a></button>
 
             </div>
           </div>
@@ -70,7 +92,7 @@
           <div class="title mb-4" style="color:white;">Nothing like a new coat of paint</div>
           <div class="btn">
             <button class=" btn-danger" style="background-color: red;color:white"><a href="" class="text-light text-decoration-none fw-bolder">Painter</a></button>
-          
+
           </div>
         </div>
 
@@ -315,7 +337,7 @@
 
   </div>
 
- 
+
 
 
   <div class="container">
@@ -324,6 +346,30 @@
     ?>
 
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    window.addEventListener("load", () => {
+      let leftpanel = document.querySelectorAll(".planel:nth-child(-n+10)");
+      let rightpanel = document.querySelectorAll(".planel:nth-child(n+11)");
+      gsap.to(leftpanel, {
+        y: "100%",
+        stagger: -0.1,
+        duration:0.4
+
+      });
+
+      gsap.to(rightpanel, {
+        y: "100%",
+        stagger: 0.1,
+        duration:0.4
+
+      });
+    })
+  </script>
   <script src="main.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

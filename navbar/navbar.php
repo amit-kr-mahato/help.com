@@ -35,7 +35,7 @@
             <a class="nav-link me-3  text-light navver" href="project.php">Start a Project</a>
           </li>
           <li class="nav-item ">
-            <button type="btn" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</button>
+            <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Log In</button>
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -84,10 +84,10 @@
 
                               </div>
                               <div class="input-group mb-3">
-                                <button class="btn btn-lg btn-primary w-100 fs-6">Login</button>
+                                <button type="button" class="btn btn-lg btn-primary w-100 fs-6">Login</button>
                               </div>
                               <div class="input-group mb-3">
-                                <button class="btn btn-lg btn-light w-100 fs-6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7JaI54p1i3v3WAoqEiQE1Jduquut71TkNSKSTNoixuv9DQQGdj61Ex_10nv6NM5wIhY&usqp=CAU" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
+                                <button type="button" class="btn btn-lg btn-light w-100 fs-6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7JaI54p1i3v3WAoqEiQE1Jduquut71TkNSKSTNoixuv9DQQGdj61Ex_10nv6NM5wIhY&usqp=CAU" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
                               </div>
                               <div class="row">
                                 <small>Don't have account? <a href="#" class="fs-5" data-bs-toggle="modal" data-bs-target="#eexampleModal" data-bs-whatever="@mdo">Sign Up</a></small>
@@ -147,7 +147,7 @@
                               </div>
 
                               <div class="input-group  mb-3">
-                                <input type="checkbox" onclick="myFunction()">Show Password
+                                <input type="checkbox">Show Password
                               </div>
 
                              
