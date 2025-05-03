@@ -5,6 +5,10 @@
   background-color: #000;
 }
 
+#main{
+  position: relative;
+}
+
 .box {
   position: fixed;
   z-index: 999;

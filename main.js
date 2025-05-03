@@ -1,6 +1,4 @@
 
-
-
 let moreCategories = document.getElementById("moreCategories");
 let isShow = false;
 
